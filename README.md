@@ -10,8 +10,8 @@ Inspired by the Hailey Welch, and the legendary [is-even](https://www.npmjs.com/
 ```rust
 use is_hawk_tuah::is_hawk_tuah;
 
-assert!(is_hawk_tuah("hawk too"));
-assert!(is_hawk_tuah("hawk two"));
-assert!(is_hawk_tuah("hawk to"));
-assert!(is_hawk_tuah("hawk tuah"));
+assert!(is_hawk_tuah("hawk too").unwrap());
+assert!(is_hawk_tuah("hawk two").unwrap());
+assert!(is_hawk_tuah("hawk to").unwrap());
+assert!(is_hawk_tuah("hawk tuah").unwrap());
 ```
