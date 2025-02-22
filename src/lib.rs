@@ -3,7 +3,7 @@
 use regex::Regex;
 
 pub fn is_hawk_tuah(sentence: &str) -> Result<bool, regex::Error> {
-    let re = Regex::new(r"(?i)\bhawk\b[\s[:punct:]]+\b(too|two|tuah|to)\b")?;
+    let re = Regex::new(r"(?i)\bhawk\b[\s[:punct:]]+\b(too|two|tuah|to|2|#2)\b")?;
     Ok(re.is_match(sentence))
 }
 
