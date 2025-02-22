@@ -1,0 +1,12 @@
+[package]
+name = "is_hawk_tuah"
+version = "0.1.0"
+edition = "2021"
+description = "Check if the sentence contains Hawk Tuah"
+license = "Unlicense"
+authors = ["Cappy Ishihara <cappy@cappuchino.xyz>"]
+repository = "https://github.com/korewaChino/is_hawk_tuah"
+readme = "README.md"
+
+[dependencies]
+regex = "1"
